@@ -16,6 +16,7 @@ body {
     padding-top: 80px;
     color: white;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #lets-help {
@@ -29,4 +30,58 @@ body {
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: 700;
+    text-align: center;
+}
+
+.sec-2 {
+    text-align: center;
+}
+
+.sec-2 div h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.sec-2>div>p {
+    color: rgb(150, 147, 147);
+}
+
+.amount-of-money {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.amount-of-money div {
+    background-color: rgb(242, 242, 238);
+    margin: 10px;
+    font: 50px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+#taka-200 {
+    background-color: rgb(241, 176, 176);
+    border: 2px solid red;
+    border-radius: 5px;
+    color: red;
+}
+
+.input-amount {
+    text-align: center;
+    border: none;
+
+
+}
+
+#other-amount {
+    font-size: 20px;
+
+}
+
+.input-amount hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
