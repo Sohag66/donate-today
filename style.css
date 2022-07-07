@@ -122,3 +122,132 @@ body {
 #education-color {
     background-color: rgb(244, 234, 242);
 }
+
+.single-area {
+    margin-inline: auto;
+    text-align: center;
+    width: 25%;
+    border-radius: 20px;
+    background-color: gainsboro;
+}
+
+.single-area img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.container-img {
+    position: relative;
+}
+
+.flooded-area-section {
+    background-color: gainsboro;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+.planning-next-year {
+    margin-top: 100px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-img:hover .image {
+    opacity: 0.3;
+}
+
+.container-img:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.plan-details {
+    margin: 0 20px;
+}
+
+.plan-details img {
+    margin: 9% 20px;
+}
+
+.half-width {
+    width: 50%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#email-input {
+    height: 66px;
+    background-color: rgba(119, 136, 153, 0.388);
+    border: none;
+    margin: 0;
+    padding-right: 0;
+    width: 400px;
+    padding-left: 20px;
+}
+
+#subscribe-btn {
+    margin-left: 0;
+    border-radius: 0;
+    height: 66px;
+}
+
+.input-container {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    border-radius: 20px;
+}
+
+.input-container {
+    border-radius: 20px;
+}
+
+#speacial {
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 66px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
